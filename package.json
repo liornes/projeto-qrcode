@@ -1,0 +1,25 @@
+{
+  "name": "projeto-qrcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liornes/projeto-qrcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liornes/projeto-qrcode/issues"
+  },
+  "homepage": "https://github.com/liornes/projeto-qrcode#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0"
+  }
+}
