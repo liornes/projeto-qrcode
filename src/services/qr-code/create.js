@@ -1,9 +1,9 @@
 import prompt from "prompt";
-import promptQRCode from "../../prompts/prompt-qrcode.js";
+import qrCodeSchemaPrompt from "../../prompts-schema/prompt-schema-qrcode.js";
 import handle from "./handle.js";
 
 function createQRCode() {
-    prompt.get(promptQRCode, handle);
+    prompt.get(qrCodeSchemaPrompt, handle);
     prompt.start();
 }
 
